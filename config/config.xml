@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <Plugins>
+    <Lib Name="libInterp4Move.so"/>
+    <Lib Name="libInterp4Rotate.so"/>
+    <Lib Name="libInterp4Pause.so"/>
+    <Lib Name="libInterp4Set.so"/>
+    <Lib Name="libInterp4SetColor.so"/>
+  </Plugins>
+
+  <Objects>
+    <Cube Name="Wally" Shift="0 0 0" Scale="0.6 0.6 0.2"
+          RotXYZ_deg="0 0 90" Trans_m="5 0 0" RGB="60 60 60"/>
+
+    <Cube Name="Wally.Korpus" Shift="0 0 0.2" Scale="0.4 0.4 0.4"
+          RotXYZ_deg="0 0 0" Trans_m="0 0 0.2" RGB="220 180 0"/>
+
+    <Cube Name="Wally.Korpus.Glowa" Shift="0 0 0.15" Scale="0.3 0.15 0.15"
+          RotXYZ_deg="0 0 0" Trans_m="0 0 0.4" RGB="180 190 200"/>
+          
+    <Cube Name="Wally.Korpus.RamieL" Shift="0 0 -0.2" Scale="0.4 0.05 0.05"
+          RotXYZ_deg="0 0 0" Trans_m="0 0.25 0.2" RGB="100 100 100"/>
+
+    <Cube Name="Wally.Korpus.RamieP" Shift="0 0 -0.2" Scale="0.4 0.05 0.05"
+          RotXYZ_deg="0 0 0" Trans_m="0 -0.25 0.2" RGB="100 100 100"/>
+
+
+    <Cube Name="Ewa" Shift="0 0 0" Scale="0.6 0.6 0.2"
+          RotXYZ_deg="0 0 -90" Trans_m="-5 0 0" RGB="60 60 60"/>
+
+    <Cube Name="Ewa.Korpus" Shift="0 0 0.2" Scale="0.4 0.4 0.4"
+          RotXYZ_deg="0 0 0" Trans_m="0 0 0.2" RGB="0 200 100"/>
+
+    <Cube Name="Ewa.Korpus.Glowa" Shift="0 0 0.15" Scale="0.3 0.15 0.15"
+          RotXYZ_deg="0 0 0" Trans_m="0 0 0.4" RGB="200 200 200"/>
+          
+    <Cube Name="Ewa.Korpus.RamieL" Shift="0 0 -0.2" Scale="0.4 0.05 0.05"
+          RotXYZ_deg="0 0 0" Trans_m="0 0.25 0.2" RGB="100 100 100"/>
+
+    <Cube Name="Ewa.Korpus.RamieP" Shift="0 0 -0.2" Scale="0.4 0.05 0.05"
+          RotXYZ_deg="0 0 0" Trans_m="0 -0.25 0.2" RGB="100 100 100"/>
+
+
+    <Cube Name="Kostka" Shift="0 0 0.1" Scale="0.2 0.2 0.2"
+          RotXYZ_deg="0 0 0" Trans_m="0 0 0" RGB="255 0 0"/>
+  </Objects>
+</Config>
